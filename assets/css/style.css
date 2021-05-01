@@ -1,24 +1,46 @@
 .jumbotron {
     background-color: rgba(34, 34, 173, 0.596);
-    color: white;
+    color: white;  
 }
 
-.container {
+.header {
     text-align: center;
 }
 
+.border {
+    border: solid;
+    border-top: 2px;
+}
+
+
 .row {
-    background-color: whitesmoke;
+    width: 100%;
+    height: 10%;
+    margin-bottom: 20px;
 }
 
-.col {
-    background-color: teal;
-    height: 12px;
-    margin-bottom: 10px;
+.col-hour {
+    width: 10%;
+    height: 50px;
+    border-top-style: dotted;
+    border-bottom: dotted;
+    text-align: center;
 }
 
-.col-10 {
-    background-color: gray;
-    margin-bottom: 10px;
-    height: 12px;
+.col-task {
+    width: 80%;
+    height: 50px;
+    border-style: hidden;
 }
+
+.col-task-input {
+    width: 100%;
+    height: 100%;
+    background-color: lightgray;
+}
+
+.btn {
+    background-color: darkcyan;
+    height: 50px;
+}
+

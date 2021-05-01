@@ -15,95 +15,87 @@
 
     <body>
         <header class="jumbotron jumbotron-fluid custom-jumbotron">
-            <div class="container">
-            <h1>Work Day Scheduler</h1>
-            <p>A simple calender app for scheduling your work day</p>
-            <h2>Current Time &amp; Date: <br /> <span id="time-display">00:00</span></h2>
+            <div class="header">
+              <h1>Work Day Scheduler</h1>
+              <p>A simple calender app for scheduling your work day</p>
+              <h2>Current Time &amp; Date: <br /> <span id="time-display">00:00</span></h2>
             </div>
         </header>
 
         <main>
-            <div class="container">
+          <div class="border" border-color="black"></div>
+          
+          <div class="container">
                 <div class="row">
-                  <div class="col">
-                    9A
+                  <label class="col-hour">9A</label>
+                  <div class="col-task">
+                    <input type="text" class="col-task-input" name="task" placeholder="Enter your task" />
                   </div>
-                  <div class="col-10">
-                    2 of 3 (wider)
+                  <button type="button" class="btn btn-primary">💾</button>
+                </div>
+
+                <div class="row">
+                  <label class="col-hour">10A</label>
+                  <div class="col-task">
+                    <input type="text" class="col-task-input" name="task" placeholder="Enter your task" />
                   </div>
-                  <button type="button" class="btn btn-primary">Primary</button>
+                  <button type="button" class="btn btn-primary">💾</button>
                 </div>
+
                 <div class="row">
-                    <div class="col">
-                      10A
-                    </div>
-                    <div class="col-10">
-                      2 of 3 (wider)
-                    </div>
-                    <button type="button" class="btn btn-primary">Primary</button>
+                  <label class="col-hour">11A</label>
+                  <div class="col-task">
+                    <input type="text" class="col-task-input" name="task" placeholder="Enter your task" />
+                  </div>
+                  <button type="button" class="btn btn-primary">💾</button>
                 </div>
+
                 <div class="row">
-                    <div class="col">
-                      11A
-                    </div>
-                    <div class="col-10">
-                      2 of 3 (wider)
-                    </div>
-                    <button type="button" class="btn btn-primary">Primary</button>
+                  <label class="col-hour">12P</label>
+                  <div class="col-task">
+                    <input type="text" class="col-task-input" name="task" placeholder="Enter your task" />
+                  </div>
+                  <button type="button" class="btn btn-primary">💾</button>
                 </div>
+
                 <div class="row">
-                    <div class="col">
-                      12p
-                    </div>
-                    <div class="col-10">
-                      2 of 3 (wider)
-                    </div>
-                    <button type="button" class="btn btn-primary">Primary</button>
+                  <label class="col-hour">1P</label>
+                  <div class="col-task">
+                    <input type="text" class="col-task-input" name="task" placeholder="Enter your task" />
+                  </div>
+                  <button type="button" class="btn btn-primary">💾</button>
                 </div>
+
                 <div class="row">
-                    <div class="col">
-                      1p
-                    </div>
-                    <div class="col-10">
-                      2 of 3 (wider)
-                    </div>
-                    <button type="button" class="btn btn-primary">Primary</button>
+                  <label class="col-hour">2P</label>
+                  <div class="col-task">
+                    <input type="text" class="col-task-input" name="task" placeholder="Enter your task" />
+                  </div>
+                  <button type="button" class="btn btn-primary">💾</button>
                 </div>
+
                 <div class="row">
-                    <div class="col">
-                      2p
-                    </div>
-                    <div class="col-10">
-                      2 of 3 (wider)
-                    </div>
-                    <button type="button" class="btn btn-primary">Primary</button>
+                  <label class="col-hour">3P</label>
+                  <div class="col-task">
+                    <input type="text" class="col-task-input" name="task" placeholder="Enter your task" />
+                  </div>
+                  <button type="button" class="btn btn-primary" onclick="Save()">💾</button>
                 </div>
+
                 <div class="row">
-                    <div class="col">
-                      3p
-                    </div>
-                    <div class="col-10">
-                      2 of 3 (wider)
-                    </div>
-                    <button type="button" class="btn btn-primary">Primary</button>
+                  <label class="col-hour">4P</label>
+                  <div class="col-task">
+                    <input type="text" class="col-task-input" name="task" placeholder="Enter your task" />
+                  </div>
+                  <button type="button" class="btn btn-primary">💾</button>
                 </div>
+
                 <div class="row">
-                    <div class="col">
-                      4p
-                    </div>
-                    <div class="col-10">
-                      2 of 3 (wider)
-                    </div>
-                    <button type="button" class="btn btn-primary">Primary</button>
-                </div>
-                <div class="row">
-                    <div class="col">
-                      5p
-                    </div>
-                    <div class="col-10">
-                      2 of 3 (wider)
-                    </div>
-                    <button type="button" class="btn btn-primary">Primary</button>
+                  <label class="col-hour">5P</label>
+                  <div class="col-task">
+                    <input type="text" class="col-task-input" name="task" placeholder="Enter your task" />
+                  </div>
+                  <button type="button" class="btn btn-primary">💾</button>
                 </div>
         </main>
         
