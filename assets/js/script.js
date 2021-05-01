@@ -1,2 +1,7 @@
-var today = ("#time-display");
-$("#time-display").text(today.format("MMM Do, YYYY"));
+var timeDisplayEl = $('#time-display');
+
+// handle displaying the time
+function displayTime() {
+    var rightNow = moment().format('MMM DD, YYYY [at] hh:mm a');
+    timeDisplayEl.text(rightNow);
+  }
