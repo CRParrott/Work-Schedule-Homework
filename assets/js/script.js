@@ -1,5 +1,6 @@
 var timeDisplayEl = $('#time-display');
-var timeColor = $('#col-task');
+var saveTaskEl = $('#save-task');
+var taskEntryEl = $('#task-entry');
 
 // handle displaying the time
 function displayTime() {
